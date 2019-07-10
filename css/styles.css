@@ -107,6 +107,10 @@ i
   font-size: 2.5em;
   color: #5BC0EB; /*blue jean*/
 }
+button i
+{
+  z-index: 100;
+}
 /*porjects
 =========================================================*/
 .title
@@ -211,7 +215,6 @@ a
   #mobile-links
   {
     grid-row: 2;
-    z-index: 10;
   }
   #mobile-links a
   {
@@ -222,7 +225,6 @@ a
     font-size: 17px;
     background: #211A1E; /*eerie black*/
     border: 1px solid #111;
-    z-index: 10;
   }
   .container .icon
   {
@@ -230,7 +232,6 @@ a
     grid-row: 1;
     font-size: 2em;
     margin: auto auto;
-    z-index: 10;
   }
   #mobile-links a:hover
   {
@@ -244,7 +245,6 @@ a
   .icon
   {
     display: none;
-    z-index: 10;
   }
   #knowledge
   {
