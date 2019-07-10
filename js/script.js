@@ -60,12 +60,16 @@ function changeImage(e)
 function mobileLinks()
 {
   var x = document.getElementById("mobile-links");
+  var t = document.getElementsByClassName("logo");
+  console.log(t[0]);
   if (x.style.display === "block")
   {
     x.style.display = "none";
+    t[0].style.border = "1px solid white";
   }
   else
   {
+    t[0].style.border = "1px solid white";
     x.style.display = "block";
   }
 }
