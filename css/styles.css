@@ -183,7 +183,7 @@ a
 {
   overflow: hidden;
   /*hide the links*/
-  display: none;
+  /* display: none; */
 }
 .footer
 {
