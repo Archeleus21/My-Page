@@ -205,16 +205,13 @@ a
     /* hides links */
     display: none;
   }
-  .container #mobile-links
-  {
-    overflow: hidden;
-    /*hide the links*/
-    display: none;
-  }
   /*style the mobile nav menu*/
   #mobile-links
   {
     grid-row: 2;
+    overflow: hidden;
+    /*hide the links*/
+    display: none;
   }
   #mobile-links a
   {
@@ -245,7 +242,7 @@ a
 =============================================================*/
 @media (min-width: 720px)
 {
-  .icon
+  .icon, #mobile-links
   {
     display: none;
   }
