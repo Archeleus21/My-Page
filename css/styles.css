@@ -225,6 +225,7 @@ a
     font-size: 17px;
     background: #211A1E; /*eerie black*/
     border: 1px solid #111;
+    z-index: 99;
   }
   .container .icon
   {
@@ -232,6 +233,7 @@ a
     grid-row: 1;
     font-size: 2em;
     margin: auto auto;
+    z-index: 100;
   }
   #mobile-links a:hover
   {
