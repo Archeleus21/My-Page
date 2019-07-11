@@ -198,7 +198,7 @@ a
 /*responsive Designs
 /*smaller screens
 =============================================================*/
-@media (max-width: 719px)
+@media (max-width: 899px)
 {
   nav ul
   {
@@ -240,7 +240,7 @@ a
 }
 /* mediume sized screens
 =============================================================*/
-@media (min-width: 720px)
+@media (min-width: 900px)
 {
   .icon, #mobile-links
   {
@@ -265,12 +265,14 @@ a
     /* starts in line 4 and spans 9 lines */
     grid-column: 4 / span 9;
   }
+
   nav ul
   {
     /* puts in one line */
     display: flex;
     /* evenly distributes space between links */
     justify-content: space-between;
+    margin-top: 40px;
   }
 }
 /* large screen
