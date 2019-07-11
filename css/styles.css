@@ -326,11 +326,11 @@ a
   }
   .contr
   {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 3;
   }
   .nested-container ul
   {
-    grid-column: 8 / span 6;
+    grid-column: 4 / span 9;
     grid-row: 6;
   }
 }
